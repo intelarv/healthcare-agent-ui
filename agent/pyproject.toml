@@ -1,0 +1,14 @@
+[project]
+name = "healthcare-agui-adapter"
+version = "0.1.0"
+description = "AG-UI adapter connecting CopilotKit frontend to healthcare agents"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "ag-ui-protocol >= 0.1.5",
+    "ag_ui_strands ~= 0.1.0",
+    "strands-agents >= 1.15.0",
+    "fastapi >= 0.115.12",
+    "uvicorn >= 0.34.3",
+    "httpx >= 0.27.0",
+    "python-dotenv >= 1.0.0",
+]
